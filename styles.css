@@ -395,6 +395,7 @@ img {
 }
 
 /* Projects Section */
+/* Projects Section */
 .projects {
   padding: 100px 0;
   background-color: white;
@@ -442,6 +443,7 @@ img {
 .project-info h3 {
   color: var(--dark-color);
   font-size: 1.3rem;
+  margin-bottom: 10px; /* ✅ ADDED - Proper spacing between title and date */
 }
 
 .project-date {
@@ -472,7 +474,6 @@ img {
   font-size: 0.9rem;
   color: var(--gray-color);
 }
-
 /* Certificates Section */
 .certificates {
   padding: 100px 0;
